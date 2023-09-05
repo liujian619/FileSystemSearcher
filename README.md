@@ -49,7 +49,7 @@ public void ParseRules(string path, params string[] rules);
 ### 解析结果（Parse Result）
 
 1. `RuleParser.Files`: 通过规则集搜索出的文件集合（Files searched by rules）
-2. `RuleParser.Directories: 通过规则集搜索出的目录集合（Directories list searched by rules）
+2. `RuleParser.Directories`: 通过规则集搜索出的目录集合（Directories list searched by rules）
 
 ### 重置结果（Reset Result）
 
