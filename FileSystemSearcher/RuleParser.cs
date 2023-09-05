@@ -76,11 +76,11 @@ namespace FileSystemSearcher
 				string s = (rule ?? string.Empty).Trim();
 				if (s.Length <= 0) // 空行
 				{
-					return;
+					continue;
 				}
 				else if (s.StartsWith("#")) // # 开头的是注释
 				{
-					return;
+					continue;
 				}
 				else if (s.StartsWith("+wf:", StringComparison.OrdinalIgnoreCase)) // 增加使用通配符匹配到的文件
 				{
