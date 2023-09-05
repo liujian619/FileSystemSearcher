@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemSearcher", "FileSystemSearcher\FileSystemSearcher.csproj", "{94F63E48-2771-425C-972A-BC9FC4062FAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemSearcherTests", "FileSystemSearcherTests\FileSystemSearcherTests.csproj", "{C9CA10C3-2EDA-4C5B-93E6-779B92526027}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94F63E48-2771-425C-972A-BC9FC4062FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F63E48-2771-425C-972A-BC9FC4062FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F63E48-2771-425C-972A-BC9FC4062FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F63E48-2771-425C-972A-BC9FC4062FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9CA10C3-2EDA-4C5B-93E6-779B92526027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9CA10C3-2EDA-4C5B-93E6-779B92526027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9CA10C3-2EDA-4C5B-93E6-779B92526027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9CA10C3-2EDA-4C5B-93E6-779B92526027}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {207DCE23-2A68-4597-8072-4E4E194FDBF4}
+	EndGlobalSection
+EndGlobal

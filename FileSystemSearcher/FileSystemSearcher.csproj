@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net45;netstandard1.4</TargetFrameworks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+		
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>sign.snk</AssemblyOriginatorKeyFile>
+    
+    <AssemblyTitle>$(AssemblyName)</AssemblyTitle>
+    <AssemblyVersion>1.0.3</AssemblyVersion>
+    
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageId>FileSystemSearcher</PackageId>
+    <PackageVersion>$(AssemblyVersion)</PackageVersion>
+    <Description>用于在文件系统中按通配符或正则表达式搜索文件或目录。（It helps to search files or directories by using wildcard or regex.）</Description>
+    <Authors>Liu Jian</Authors>
+    <Copyright>© Liu Jian. All rights reserved.</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageTags>file;directory;wildcard;regex;filesystem</PackageTags>
+    <PackageProjectUrl>https://github.com/liujian619/FileSystemSearcher</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/liujian619/FileSystemSearcher.git</RepositoryUrl>
+    <RepositoryBranch>master</RepositoryBranch>
+    <PackageReleaseNotes>优化</PackageReleaseNotes>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<None Include="icon.png" Pack="true" PackagePath="\"/>
+		<None Include="readme.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+</Project>
